@@ -102,8 +102,8 @@
 
         layer_3 {
             bindings = <
-&trans  &trans             &mmv MOVE_Y(600)   &trans            &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &mmv MOVE_X(-600)  &mmv MOVE_Y(-600)  &mmv MOVE_X(600)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans             &mmv MOVE_Y(-600)  &trans            &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans             &trans             &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans             &trans             &trans            &trans  &trans  &trans  &trans                          &trans
             >;
