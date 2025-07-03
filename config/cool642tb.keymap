@@ -7,6 +7,9 @@
 #define SCROLL 5
 #define NUM 6
 
+#define JP_KANA         LANGUAGE_1        // かな
+#define JP_EISU         LANGUAGE_2        // 英数
+
 &mt {
     flavor = "balanced";
     quick-tap-ms = <0>;
