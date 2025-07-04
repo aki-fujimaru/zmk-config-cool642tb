@@ -45,12 +45,12 @@
 
         next_window {
             bindings = <&kp LG(TAB)>;
-            key-positions = <18 26>;
+            key-positions = <18 13>;
         };
 
         back_window {
             bindings = <&kp RS(TAB)>;
-            key-positions = <18 24>;
+            key-positions = <18 12>;
         };
     };
 
