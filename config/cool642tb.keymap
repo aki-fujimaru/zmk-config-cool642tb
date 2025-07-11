@@ -112,9 +112,9 @@
 
         screen {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans                      &kp LA(LC(U))  &kp LA(LC(I))      &trans                       &trans
+&trans  &trans  &trans  &trans  &trans                  &trans                      &kp LA(LC(U))  &kp LA(LC(I))      &kp LA(LC(UP_ARROW))         &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LA(LC(LG(LEFT_ARROW)))  &kp LA(LC(J))  &kp LA(LC(K))      &kp LA(LC(LG(RIGHT_ARROW)))  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LG(F))               &kp LA(LC(M))  &kp LA(LC(COMMA))  &trans                       &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LG(F))               &kp LA(LC(M))  &kp LA(LC(COMMA))  &kp LA(LC(DOWN_ARROW))       &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                                     &trans
             >;
         };
