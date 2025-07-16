@@ -79,10 +79,10 @@
 
         default_layer {
             bindings = <
-&kp Q                &kp W             &kp E                   &kp R                   &kp T                            &kp Y                  &kp U           &kp I      &kp O       &kp P
-&kp A                &kp S             &kp D                   &lt 3 F                 &kp G      &to 1      &kp ESC    &kp H                  &mt LEFT_GUI J  &kp K      &kp L       &kp BACKSPACE
-&kp Z                &kp X             &kp C                   &kp V                   &kp B      &mkp MB1   &kp TAB    &kp N                  &kp M           &kp COMMA  &kp PERIOD  &kp MINUS
-&mt LEFT_SHIFT CAPS  &kp LEFT_CONTROL  &mt LEFT_ALT LA(SPACE)  &mt LEFT_GUI LG(SPACE)  &kp SPACE  &lt 1 F19  &lt 2 F20  &mt RIGHT_SHIFT ENTER                                         &kp BACKSLASH
+&kp Q                &kp W             &kp E                   &kp R               &kp T                            &kp Y                  &kp U           &kp I      &kp O       &kp P
+&lt 3 A              &kp S             &kp D                   &mt LEFT_COMMAND F  &kp G      &to 1      &kp ESC    &kp H                  &mt LEFT_GUI J  &kp K      &kp L       &kp BACKSPACE
+&kp Z                &kp X             &kp C                   &kp V               &kp B      &mkp MB1   &kp TAB    &kp N                  &kp M           &kp COMMA  &kp PERIOD  &kp MINUS
+&mt LEFT_SHIFT CAPS  &kp LEFT_CONTROL  &mt LEFT_ALT LA(SPACE)  &mt LEFT_GUI SPACE  &kp SPACE  &lt 1 F19  &lt 2 F20  &mt RIGHT_SHIFT ENTER                                         &kp BACKSLASH
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -112,10 +112,10 @@
 
         screen {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans                      &kp LA(LC(U))  &kp LA(LC(I))      &kp LA(LC(UP_ARROW))         &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LA(LC(LG(LEFT_ARROW)))  &kp LA(LC(J))  &kp LA(LC(K))      &kp LA(LC(LG(RIGHT_ARROW)))  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &kp LC(LG(F))               &kp LA(LC(M))  &kp LA(LC(COMMA))  &kp LA(LC(DOWN_ARROW))       &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                                                                                     &trans
+&trans  &trans         &trans         &trans         &trans                  &kp LA(LC(Y))               &kp LA(LC(U))  &kp LA(LC(I))      &kp LA(LC(UP_ARROW))         &trans
+&trans  &kp LA(LC(S))  &kp LA(LC(D))  &kp LA(LC(F))  &trans  &trans  &trans  &kp LA(LC(LG(LEFT_ARROW)))  &kp LA(LC(J))  &kp LA(LC(K))      &kp LA(LC(LG(RIGHT_ARROW)))  &trans
+&trans  &kp LA(LC(X))  &trans         &kp LA(LC(V))  &trans  &trans  &trans  &kp LC(LG(F))               &kp LA(LC(M))  &kp LA(LC(COMMA))  &kp LA(LC(DOWN_ARROW))       &trans
+&trans  &trans         &trans         &trans         &trans  &trans  &trans  &trans                                                                                     &trans
             >;
         };
     };
