@@ -91,8 +91,8 @@
         NUM1 {
             bindings = <
 &kp N1               &kp N2        &kp N3         &kp N4        &kp N5                            &kp N6                 &kp N7     &kp N8            &kp N9             &kp N0
-&bt BT_SEL 0         &bt BT_SEL 1  &kp SEMICOLON  &kp UP_ARROW  &kp SQT    &to 0      &kp ESCAPE  &kp SLASH              &none      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSPACE
-&bt BT_SEL 2         &bt BT_SEL 3  &kp LEFT       &kp DOWN      &kp RIGHT  &mkp MB2   &kp TAB     &kp GRAVE              &kp EQUAL  &kp COMMA         &kp PERIOD         &kp MINUS
+&bt BT_SEL 0         &bt BT_SEL 2  &kp SEMICOLON  &kp UP_ARROW  &kp SQT    &to 0      &kp ESCAPE  &kp SLASH              &none      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSPACE
+&bt BT_SEL 1         &bt BT_SEL 3  &kp LEFT       &kp DOWN      &kp RIGHT  &mkp MB2   &kp TAB     &kp GRAVE              &kp EQUAL  &kp COMMA         &kp PERIOD         &kp MINUS
 &mt LEFT_SHIFT CAPS  &kp LCTRL     &kp LEFT_ALT   &kp LCMD      &kp SPACE  &lt 1 F19  &lt 2 F20   &mt RIGHT_SHIFT ENTER                                                  &kp BACKSLASH
             >;
 
